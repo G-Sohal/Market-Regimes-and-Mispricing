@@ -1,6 +1,8 @@
 # Week 1
 As proposed, we will be covering regression (and other time series modeling techniques) to find the relationship between two highly correlated datasets. You will also implement the Engle-Granger method to check whether the spread is stationary, and find the half-life of their mean reversion to generate signals.
+
 Make sure to follow the content well at your own pace.
+
 ---
 Some topics maybe completely new to you, please do ask us on how to ramp-up in that case. We'll be happy to help :D
 
@@ -14,7 +16,7 @@ To mathematically prove that a pair is cointegrated, we rely on the Engle-Grange
 1. OLS Regression: 
     We regress Asset A against Asset B to find the Hedge Ratio ($\beta$).   
 
-        $$Y_t = \beta X_t + c + \epsilon_t$$
+    $Y_t = \beta X_t + c + \epsilon_t$
 
 2. Once we have our hedge ratio, we isolate the residuals (the spread):
     $$\epsilon_t = Y_t - \beta X_t - c$$
